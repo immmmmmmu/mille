@@ -1,0 +1,23 @@
+{
+  "name": "mille",
+  "owner": {
+    "name": "imds"
+  },
+  "metadata": {
+    "description": "Issue駆動の4モード開発パイプライン。tsumiki ベースの独立フレームワーク。",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "mille",
+      "source": "./",
+      "description": "Issue駆動の4モード開発パイプライン（greenfield / feature / fix / refine）。tsumiki ベースの独立フレームワーク。",
+      "version": "1.0.0",
+      "author": {
+        "name": "imds"
+      },
+      "license": "MIT",
+      "keywords": ["ai-development", "sdd", "tdd", "issue-driven", "multi-mode"]
+    }
+  ]
+}
