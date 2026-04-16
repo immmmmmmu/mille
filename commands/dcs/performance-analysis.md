@@ -181,7 +181,7 @@ contextとして以下を保持する：
 - **カレントディレクトリを基準とした相対パスを使用する**
 - フルパス（絶対パス）は記載しない
 - 例:
-  - ❌ `/Users/makotan/projects/ensemble-si/backend/src/main/kotlin/...`
+  - ❌ `/Users/username/projects/myapp/backend/src/main/kotlin/...`
   - ✅ `backend/src/main/kotlin/...`
 
 ## 原因候補の分類
@@ -261,7 +261,7 @@ contextとして以下を保持する：
 **絶対パス（/Users/... や C:\\... など）は使用しないでください。**
 
 例:
-- ❌ `/Users/makotan/projects/ensemble-si/backend/src/main/kotlin/...`
+- ❌ `/Users/username/projects/myapp/backend/src/main/kotlin/...`
 - ✅ `backend/src/main/kotlin/...`
 
 # 出力ファイル構成
@@ -769,7 +769,7 @@ contextとして以下を保持する：
 **絶対パス（/Users/... や C:\\... など）は使用しないでください。**
 
 例:
-- ❌ `/Users/makotan/projects/ensemble-si/backend/src/main/kotlin/...`
+- ❌ `/Users/username/projects/myapp/backend/src/main/kotlin/...`
 - ✅ `backend/src/main/kotlin/...`
 
 # サマリー作成手順

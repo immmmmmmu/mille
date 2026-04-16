@@ -124,7 +124,7 @@ contextとして以下を保持する：
 - **カレントディレクトリを基準とした相対パスを使用する**
 - フルパス（絶対パス）は記載しない
 - 例:
-  - ❌ `/Users/kuroeda/projects/tsumiki-local/src/main.ts`
+  - ❌ `/Users/username/projects/myapp/src/main.ts`
   - ✅ `src/main.ts`
 - カレントディレクトリは調査開始時の作業ディレクトリ
 - すべてのファイルパスは相対パスで統一する
@@ -182,7 +182,7 @@ contextとして以下を保持する：
 **コード例を示す場合は、シンタックスハイライト付きのコードブロックを使用してください。**
 
 例:
-- ❌ `/Users/kuroeda/projects/tsumiki-local/src/main.ts`
+- ❌ `/Users/username/projects/myapp/src/main.ts`
 - ✅ `src/main.ts`
 
 # 調査手順

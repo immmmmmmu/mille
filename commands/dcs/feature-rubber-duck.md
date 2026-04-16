@@ -174,8 +174,8 @@ contextとして以下を保持する：
 - **カレントディレクトリを基準とした相対パスを使用する**
 - フルパス（絶対パス）は記載しない
 - 例:
-  - ❌ `/Users/makotan/projects/ensemble-si/backend/src/main/kotlin/si/ensemble/api/`
-  - ✅ `backend/src/main/kotlin/si/ensemble/api/`
+  - ❌ `/Users/username/projects/myapp/backend/src/main/kotlin/com/example/api/`
+  - ✅ `backend/src/main/kotlin/com/example/api/`
 
 ## 対話のガイドライン
 

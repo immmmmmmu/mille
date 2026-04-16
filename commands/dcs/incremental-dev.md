@@ -234,7 +234,7 @@ contextとして以下を保持する
 - **カレントディレクトリを基準とした相対パスを使用する**
 - フルパス（絶対パス）は記載しない
 - 例:
-  - ❌ `/Users/makotan/projects/example/src/auth/login.ts`
+  - ❌ `/Users/username/projects/myapp/src/auth/login.ts`
   - ✅ `src/auth/login.ts`
 - カレントディレクトリは分析開始時の作業ディレクトリ
 - すべてのファイルパスは相対パスで統一する
@@ -341,7 +341,7 @@ contextとして以下を保持する
 **各セクションファイルは500行以内を目標としてください。500行を超える場合は、さらに細かく分割してください。**
 
 例:
-- ❌ `/Users/makotan/projects/example/src/auth/login.ts`
+- ❌ `/Users/username/projects/myapp/src/auth/login.ts`
 - ✅ `src/auth/login.ts`
 
 # 出力ファイル構成

@@ -209,7 +209,7 @@ argument-hint: [要件名]
   - **カレントディレクトリからの相対パスとして**ベースディレクトリを決定する
     - 相対パス形式: "{{出力ディレクトリ}}/{{timestamp}}_{{英語化名}}_edgecase"
     - 例: ".dcs/20251219103045_user_auth_edgecase"
-  - **絶対パスは使用しない**（例: `/Users/kuroeda.makoto/projects/ensemble/.dcs/...` のような形式は使わない）
+  - **絶対パスは使用しない**（例: `/Users/username/projects/myapp/.dcs/...` のような形式は使わない）
 
 - チェックリストファイルのパス設定
   - チェックリストパス = "{{ベースディレクトリ}}/check_list.md" （相対パス）
@@ -530,7 +530,7 @@ argument-hint: [要件名]
 - 例:
   - ❌ `/Users/username/projects/app/src/utils/helper.ts`
   - ✅ `src/utils/helper.ts`
-  - ❌ `/Users/kuroeda.makoto/projects/ensemble/.dcs/20251219103045_user_auth_edgecase/index.md`
+  - ❌ `/Users/username/projects/myapp/.dcs/20251219103045_user_auth_edgecase/index.md`
   - ✅ `.dcs/20251219103045_user_auth_edgecase/index.md`
 
 ## エッジケース分析の観点

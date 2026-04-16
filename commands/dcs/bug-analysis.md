@@ -171,7 +171,7 @@ contextとして以下を保持する：
 - **カレントディレクトリを基準とした相対パスを使用する**
 - フルパス（絶対パス）は記載しない
 - 例:
-  - ❌ `/Users/makotan/projects/ensemble-si/src/utils/helper.ts`
+  - ❌ `/Users/username/projects/myapp/src/utils/helper.ts`
   - ✅ `src/utils/helper.ts`
 - カレントディレクトリは分析開始時の作業ディレクトリ
 - すべてのファイルパスは相対パスで統一する

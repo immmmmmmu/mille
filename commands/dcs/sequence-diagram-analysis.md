@@ -250,7 +250,7 @@ contextとして以下を保持する
 - **カレントディレクトリを基準とした相対パスを使用する**
 - フルパス（絶対パス）は記載しない
 - 例:
-  - ❌ `/Users/makotan/projects/esample/src/api/order.ts`
+  - ❌ `/Users/username/projects/myapp/src/api/order.ts`
   - ✅ `src/api/order.ts`
 - カレントディレクトリは分析開始時の作業ディレクトリ
 - すべてのファイルパスは相対パスで統一する
@@ -329,7 +329,7 @@ contextとして以下を保持する
 **調査結果ファイルは必ず Read で読み込んでから使用してください。**
 
 例:
-- ❌ `/Users/makotan/projects/esample/src/api/order.ts`
+- ❌ `/Users/username/projects/myapp/src/api/order.ts`
 - ✅ `src/api/order.ts`
 
 # 出力ファイル構成
@@ -767,7 +767,7 @@ sequenceDiagram
 **分析ファイルリストのファイルは必ず Read で読み込んでから使用してください。**
 
 例:
-- ❌ `/Users/makotan/projects/esample/src/api/order.ts`
+- ❌ `/Users/username/projects/myapp/src/api/order.ts`
 - ✅ `src/api/order.ts`
 
 # サマリー作成手順
